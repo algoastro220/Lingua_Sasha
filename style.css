@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 33px;
+  background-color: rgb(205, 205, 255);
+}
+nav {
+  background-color: #345196;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a:hover {
+  background-color: #707a92;
+  font-size: 18px;
+}
+
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 40px;
+    border: 6px double rgb(173, 182, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(232, 232, 255);
+}
+
+
+.Lingua {
+    border: solid 2px rgb(174, 173, 255);
+}
+
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 25px;
+    background-color: lightblue;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+p {
+  font-size: 20px;
+  background-color: rgb(203, 235, 246);
+}
+
+
+.li {
+  font-size: 16px;
+  background-color: rgb(216, 240, 248);
+}
+
+footer {
+  font-size: 20px;
+  background-color: rgb(203, 235, 246);
+}
